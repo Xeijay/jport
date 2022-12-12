@@ -119,7 +119,7 @@ label,#hamburger{display: none;}
     }
   
 }
-.detail,.resume{
+.detail{
     padding: 1rem;
     .s2{
         color:  #fcfc;
@@ -131,6 +131,27 @@ label,#hamburger{display: none;}
         color:  #fcfc;
     }
 
+}
+// ......................................resume...............................................
+
+.resume{
+	width: 100%;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+    padding: 2em;
+    .s2{
+        color:  #fcfc;
+        letter-spacing: normal;
+    }
+    .s3{
+        color: white;
+    }
+    .s1{
+        color:  #fcfc;
+    }
 }
 // ........................................styling for services.......................................
 .services{
