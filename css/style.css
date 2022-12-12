@@ -124,21 +124,41 @@ label, #hamburger {
   padding: 1rem;
 }
 
-.detail, .resume {
+.detail {
   padding: 1rem;
 }
-.detail .s2, .resume .s2 {
+.detail .s2 {
   color: rgba(255, 204, 255, 0.8);
 }
-.detail .s3, .resume .s3 {
+.detail .s3 {
   color: white;
 }
-.detail .s1, .resume .s1 {
+.detail .s1 {
+  color: rgba(255, 204, 255, 0.8);
+}
+
+.resume {
+  width: 100%;
+  background: #101010;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+.resume .s2 {
+  color: rgba(255, 204, 255, 0.8);
+  letter-spacing: normal;
+}
+.resume .s3 {
+  color: white;
+}
+.resume .s1 {
   color: rgba(255, 204, 255, 0.8);
 }
 
 .services {
-  background: #101010;
+  background: #191919;
   width: 100%;
   padding: 100px 0px;
 }
@@ -158,7 +178,7 @@ label, #hamburger {
 .services .box .card {
   width: 335px;
   padding: 20px 35px;
-  background: #191919;
+  background: #101010;
   border-radius: 20px;
   margin: 15px;
   position: relative;
@@ -175,7 +195,7 @@ label, #hamburger {
 
 .contact {
   width: 100%;
-  background: #191919;
+  background: #101010;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -222,7 +242,7 @@ label, #hamburger {
 .footer {
   position: relative;
   width: 100%;
-  background: #101010;
+  background: #191919;
   display: flex;
   flex-direction: column;
   align-items: center;
